@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Knapsack {
+public class Knapsack01 {
     public static int knapsack(int[] weights, int [] values, int n, int V){
         if (n == 0 || V == 0)
             return 0;
@@ -124,4 +124,5 @@ public class Knapsack {
         }
     }
 }
+
 
